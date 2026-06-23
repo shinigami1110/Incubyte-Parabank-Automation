@@ -76,3 +76,7 @@ Commits should occur sequentially in the following phases:
 6. `feat: implement login flow and balance capture`
 7. `feat: add screenshot and video proof handling`
 8. `docs: update README and perform final repository cleanup`
+
+## Notes
+The public ParaBank environment occasionally displays a 'This username already exists.' message immediately after registration. Since the account is already persisted, the framework performs a verification step by logging in with the newly created credentials. This ensures stable and repeatable execution without impacting the overall flow.
+
