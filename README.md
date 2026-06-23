@@ -50,9 +50,14 @@ This repository automates user registration, login, and account overview balance
    ```
 
 2. **Execute Scenarios**:
-   ```bash
-   npx cucumber-js
-   ```
+   * **macOS/Linux**:
+     ```bash
+     npx cucumber-js
+     ```
+   * **Windows (PowerShell)**:
+     ```powershell
+     npx.cmd cucumber-js
+     ```
 
 ## Proof of Execution
 *   **Console Logging**: The extracted account balance is printed to the console using a structured logger.
