@@ -8,6 +8,7 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
+    headless: true,
     baseURL: 'https://parabank.parasoft.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
