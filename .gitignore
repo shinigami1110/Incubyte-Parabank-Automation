@@ -1,0 +1,12 @@
+node_modules/
+dist/
+screenshots/*
+!screenshots/.gitkeep
+videos/*
+!videos/.gitkeep
+reports/*
+!reports/.gitkeep
+test-results/
+playwright-report/
+.env
+.DS_Store

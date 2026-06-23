@@ -1,0 +1,25 @@
+{
+  "name": "incubyte-parabank-automation",
+  "version": "1.0.0",
+  "description": "Production-grade Parabank test automation with Playwright, JavaScript, and Cucumber BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "javascript",
+    "bdd",
+    "pom",
+    "parabank"
+  ],
+  "author": "SDET",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.44.0",
+    "fs-extra": "^11.2.0",
+    "winston": "^3.13.0"
+  }
+}
